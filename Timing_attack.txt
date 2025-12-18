@@ -1,3 +1,10 @@
+';sleep(5000);
+';sleep(5000)//
+';sleep(5000)||'
+';it=new Date();do{pt=new Date();}while(pt-it<5000);
+{$where: "sleep(5000) || true"}
+';for(var i=0;i<1e8;i++){}//
+';var d=new Date();while((new Date())-d<5000){}
 {$where: "var d=new Date();while(new Date()-d<5000){};return true"}
 {$where: "for(var i=0;i<100000000;i++){};return true"}
 {$where: "var start=Date.now();while(Date.now()-start<5000){};return true"}
